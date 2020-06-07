@@ -23,3 +23,35 @@ nav {
     align-items: center;
     padding: 1.5rem 0;
 }
+
+nav h3 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+nav h3 span {
+    background: #F26C4F;
+    color:  #fff;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+}
+
+nav ul {
+    display: flex;
+} 
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+nav a.menu{
+    background: #F26C4F;
+    color:  #fff;
+    padding: .5rem .8rem;
+    border-radius: 6.5px;
+}
