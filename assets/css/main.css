@@ -55,3 +55,25 @@ nav a.menu{
     padding: .5rem .8rem;
     border-radius: 6.5px;
 }
+
+.content {
+    height: 80vh;
+}
+
+.flexbox {
+    display: flex;
+    height: 100%;
+}
+
+.hero-desc h1 {
+    font-size: 3.5rem;
+}
+
+.span-6 {
+    flex-basis: 50%;
+}
+
+.span-6 img {
+    height: auto;
+    width: 100%;
+}
