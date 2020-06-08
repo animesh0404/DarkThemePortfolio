@@ -1,3 +1,10 @@
+:root {
+    --darkBg: #222;
+    --darkerBg: #1f1f1f;
+    --bgAccent: #F26C4F;
+    --bgAccentDark: #E84A2C;
+}
+
 * {
     margin: 0;
     padding: 0;
