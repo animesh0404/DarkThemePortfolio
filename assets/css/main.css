@@ -249,18 +249,35 @@ nav a.menu{
 }
 
 .portfolio {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     background: var(--darkerBg);
     color: #fff;
 }
 
 .gallery-box {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2,250px);
-    grid-gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,260px);
+    grid-gap: .7rem;
 }
 
 .gallery-item {
-    background: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery-item div,
+.gallery-item a {
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-item a {
+    display: block;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
