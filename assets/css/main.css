@@ -120,7 +120,12 @@ nav a.menu{
 
 .about h5 {
     color: var(--bgAccentDark);
+    font-size: 1.5rem;
     margin-bottom: 1.3rem;
+}
+
+.about-left {
+    padding-right: 1.8rem;
 }
 
 .about-left h2 {
@@ -135,14 +140,31 @@ nav a.menu{
 }
 
 .experience {
-    padding: 1rem;
+    display: flex;
+    align-items: center;
 }  
 
-.experience :first-child {
-    font-size: 2.5rem;
+.experience span:first-child {
+    font-size: 5rem;
     color: var(--bgAccentDark);
+    padding-right: 1rem;
 }
 
 .experience :last-child {
-    font-size: 1.2rem;
+    font-size: 1.14rem;
+    line-height: 1.8rem;
+}
+
+.about-right {
+    padding-left: 1rem;
+}
+
+.about-right h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.about-right h2 {
+    color: var(--bgAccentDark);
+    margin-top: 2rem;
 }
