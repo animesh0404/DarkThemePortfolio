@@ -65,15 +65,35 @@ nav a.menu{
     height: 100%;
 }
 
+.inner-desc {
+    margin: auto;
+    padding: 0 7;
+}
+
+.hero-desc {
+    display: flex;
+}
+
 .hero-desc h1 {
     font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-desc h3 {
+    margin-bottom: 0.5rem;
+}
+
+.hero-desc p{
+    line-height: 1.5rem;
 }
 
 .span-6 {
-    flex-basis: 50%;
+    flex-basis: 70%;
 }
+
 
 .span-6 img {
     height: auto;
     width: 100%;
 }
+
