@@ -168,3 +168,99 @@ nav a.menu{
     color: var(--bgAccentDark);
     margin-top: 2rem;
 }
+
+.small-header {
+    color: var(--bgAccentDark);
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.main-header {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.services {
+    padding: 3rem 0;
+    background: var(--darkBg);
+    color: #fff;
+}
+
+.services-main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+
+.single-service {   
+    text-align: center;
+    position: relative;
+}
+
+.single-service.active .services-inner {
+    background: var(--darkerBg);
+}
+
+.single-service.active .bg,
+.single-service:hover .bg{
+    position: absolute;
+    background-image: linear-gradient(50deg, #8A2BE2,#E84A2C);
+    right: -3%;
+    bottom: -3%;
+    height: 90%;
+    width:  90%;    
+    z-index: -0;
+}
+
+.single-service:hover .services-inner {
+    background: var(--darkerBg);
+}
+
+.services-inner {
+    padding: 5rem 1.5rem;
+    position: relative;
+    z-index: 5;
+}
+
+.single-service span{
+    color: var(--bgAccentDark);
+    font-size: 3rem;
+}
+
+.single-service h3{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+.single-service p {
+    line-height: 1.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.single-service a {
+    color: var(--bgAccent);
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.portfolio {
+    padding: 3rem 0;
+    background: var(--darkerBg);
+    color: #fff;
+}
+
+.gallery-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,250px);
+    grid-gap: 1rem;
+}
+
+.gallery-item {
+    background: blue;
+}
