@@ -13,7 +13,7 @@
 }
 
 .container {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -57,7 +57,10 @@ nav a.menu{
 }
 
 .content {
-    height: 80vh;
+    height: 75vh;
+    background-image: url('../../assets/img/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flexbox {
@@ -67,7 +70,7 @@ nav a.menu{
 
 .inner-desc {
     margin: auto;
-    padding: 0 7;
+    padding: 0 1rem;
 }
 
 .hero-desc {
@@ -85,6 +88,7 @@ nav a.menu{
 
 .hero-desc p{
     line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .span-6 {
