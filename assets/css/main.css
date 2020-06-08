@@ -15,7 +15,7 @@
 }
 
 .wrapper {
-    background: #222;
+    background: var(--darkBg);
     color: #fff;
 }
 
@@ -37,7 +37,7 @@ nav h3 {
 }
 
 nav h3 span {
-    background: #F26C4F;
+    background: var(--bgAccent);
     color:  #fff;
     padding: .5rem 1rem;
     border-radius: 8px;
@@ -57,7 +57,7 @@ nav a{
 }
 
 nav a.menu{
-    background: #F26C4F;
+    background: var(--bgAccent);
     color:  #fff;
     padding: .5rem .8rem;
     border-radius: 6.5px;
