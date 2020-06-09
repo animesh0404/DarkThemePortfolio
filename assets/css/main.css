@@ -281,3 +281,66 @@ nav a.menu{
     justify-content: center;
     color: #fff;
 }
+
+.testimonials {
+    padding: 5rem 0;
+    background: var(--darkBg);
+    color: #fff;
+}
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.single-slider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.slider-info {
+    padding: 3rem 2rem;
+    background-image: url('../../assets/img/slider-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-info h2 {
+    font-size: 2rem;
+    color: var(--bgAccentDark);
+}
+
+.slider-info h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    line-height: 3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.slider-info h4 {
+    font-size: 1.4rem;
+    color: var(--bgAccentDark);
+    margin-bottom: 1.5rem;
+}
+
+.slider-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brands {
+    padding: 0rem 3rem;
+}
+
+.inner-brands {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 1rem;
+    margin-top: 5rem;
+}
+
+.inner-brands img {
+    width: 80%;    
+}
